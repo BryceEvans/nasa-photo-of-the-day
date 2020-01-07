@@ -22,9 +22,10 @@ export default function Photo() {
   return (
     <div className="container">
       <NasaPhoto src={photo.hdurl} alt="photo-of-the-day" />
-      <p className="myText">Astronomy Picture of the Day</p>
-      <p className="myText2">{photo.title}</p>
-      <p className="myText3">{photo.explanation}</p>
+      <p className="text NPOD">Astronomy Picture of the Day</p>
+      <p className="text date">{photo.date}</p>
+      <p className="text title">{photo.title}</p>
+      <p className="text explanation">{photo.explanation}</p>
     </div>
   )
 }
