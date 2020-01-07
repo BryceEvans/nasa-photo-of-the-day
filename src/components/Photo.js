@@ -20,8 +20,11 @@ export default function Photo() {
   console.log("Photo: ", photo)
 
   return (
-    <div>
+    <div className="container">
       <NasaPhoto src={photo.hdurl} alt="photo-of-the-day" />
+      <p className="myText">Astronomy Picture of the Day</p>
+      <p className="myText2">{photo.title}</p>
+      <p className="myText3">{photo.explanation}</p>
     </div>
   )
 }

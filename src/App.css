@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  /* border: 5px solid red; */
+  position: relative;
+}
+
+.myText {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.myText2 {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.myText3 {
+  position: absolute;
+  top: 88%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* border: 5px solid red; */
+  width: 75%;
+  /* background-color: gray; */
+  background: transparent;
+}
